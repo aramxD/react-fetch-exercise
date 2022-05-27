@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+# react-fetch-exercise
+react project with styled components and fectching data from Dev.to API
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,6 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# react-fetch-exercise
-react project with styled components and fectching data from Dev.to API
->>>>>>> 38a5c0e85533583278f1d4f4f4a94ad5e6145be2
+

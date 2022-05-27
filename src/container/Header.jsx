@@ -32,7 +32,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items:center;
-padding: 60px 0 60px 0
+padding: 40px 0 20px 0;
+
+
 `;
 
 

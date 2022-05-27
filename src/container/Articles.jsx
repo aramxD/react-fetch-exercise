@@ -1,27 +1,30 @@
 import styled from "styled-components"
-import {Container} from '../elements/Container'
-import mockUriel from '../mocks/mockUriel'
+import Article from "../components/Article"
+import {Container, ContainerRow} from '../elements/Container'
 
 
-const Article = ({className})=>{
-    console.log(mockUriel)
+const Articles = ({className})=>{
+    let mockUriel = []
     return(
         <div className={className}>
             <Container>
                 <h2>Estos son mis articulos en Dev.to</h2>
+                <ContainerRow>
                 {
-                    mockUriel.map((article, index)=>{
-                        return <p key={article.id}> {article.title}</p>
+                    mockUriel.map((article)=>{
+                        return <Article article={article} key={article.id}/>
                     })
-                }
+                }</ContainerRow>
             </Container>
         </div>
     )
 }
 
-export default styled(Article)`
+export default styled(Articles)`
+    
     background-color:${props=> props?.theme?.prymary || "rgb(42, 42, 42)"};
     color:${props=>props?.theme?.primary ||"rgb(255, 255, 255)"};
-    margin:60px;
+    //margin:60px 0;
     padding:60px
+    
 `

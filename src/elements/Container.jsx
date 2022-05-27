@@ -4,7 +4,7 @@ export const Container = styled.div`
     margin-right: auto;
     margin-left: auto;
     width: min(900px, 80%);
-    flex:1
+    flex:1;
     
 `
 
