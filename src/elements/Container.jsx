@@ -12,5 +12,9 @@ export const ContainerRow = styled.div`
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: flex-start;
+    
+    a{
+        margin-right:30px
+    }
 `

@@ -22,11 +22,11 @@ export const SecondaryButtonStyle =css`
     border: 0;
     font-weight: bold;
     font-size:1.2em;
-    text-align: center;
     text-transform: uppercase;
     text-decoration:underline;
     background-color: transparent;
     color:inherit;
+    cursor:pointer;
 `
 
 export const LinkPrimaryButton = styled.a`
